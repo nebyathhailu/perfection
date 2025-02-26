@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <style>
+    
+        form{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+            width:40%;
+            margin: 0 auto;
+            border: none;
+            padding: 30px;
+        }
+        label{
+            margin-left:20px ;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+            font-weight: bolder;
+        }
+        .input{
+            width: 90%;
+            margin-left:20px;
+            margin-top:10px;
+            margin-bottom:20px;
+            padding: 10px 10px;
+        }
+        button{
+            width:93%;
+            color: white;
+            align-items: center;
+            background-color: black;
+            border:none ;
+            margin-left: 20px;
+            margin-top:50px;
+            margin-bottom:50px;
+            padding: 10px 10px;
+        }
+        #hr1{
+            display:flex;
+            width:36%;
+            margin-left: 20px;
+            margin-right: 5px;
+        }
+        #hr2{
+            display:flex;
+            width:40%;
+            margin-left: 5px;
+        }
+        img{
+            width:30px;
+            height:30px;  
+            margin-top:20px;  
+        }  
+        </style>
+</head>
+
+<body>
+    <div>
+    <form>
+        <p>Don't have an account &#x3f <a href="index.html">Sign up</a></p>
+        <h1>Sign In</h1>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input class="input"type="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <label for="password">Password:</label>
+        <br>
+        <input class="input"type="password" id="password" placeholder="Enter your password">
+        <br>
+        <input id="confirm" type="checkbox" style="margin-left:20px">
+        <labe for="confirm">I've Read And Agree With The <a href="">Terms Of Service</a> And Our <a href="">Privacy Policy</a></label> <!-- Terms Of Service and Privacy Policy are supposed to be links-->
+        <br><br>
+        <button type="submit"><a href="table.html" style="color:#ffffff">Sign In</a></button>
+        <br><br>
+        <hr id="hr1">
+        <p style="display:inline;">Or Sign In With</p>
+        <hr id="hr2">
+        <br>
+        <a href="https://www.google.com/"><img src="Images/google-brands.ico" alt="Google icon"style="margin-left:260px"></a>
+        <a href="https://www.facebook.com/"><img src="Images/facebook-brands.ico" alt="Facebook icon" style="margin-left:100px"></a>
+    </form>
+    </div>
+</body>
+</html>
