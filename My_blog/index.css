@@ -1,0 +1,32 @@
+body{
+    
+    background-color:rgb(236, 245, 208);
+}
+header {
+    text-align:center;
+    border: 5px rgb(19, 77, 5) dotted;
+    height:150px;
+    background-color:rgb(231, 241, 221);
+}
+h1{
+    
+}
+ul{
+    list-style-type: none;
+li a{
+    text-decoration:none ;
+    font-weight: 800 ;
+    padding: 25px;
+}
+article h1 {
+    color: brown;
+    border: 2px black solid;
+}
+}
+footer{
+     height:30px;
+     border:3px rgb(19, 77, 5) dotted;
+     background-color:rgb(231, 241, 221);
+     text-align: center;
+     padding-top:15px;
+}
